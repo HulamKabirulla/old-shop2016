@@ -1,0 +1,118 @@
+@media all and (min-width:1700px)
+{
+	#ToMainDiv{
+		clear: left;float:left;margin-left:21%;margin-top:30px;padding:5px
+	}
+    #TopInfoDiv {
+        background-color:#20B2AA;width:100%;height:100px;
+    }
+	#TopCategoryDiv {
+		float:left;margin-top:30px
+	}
+	#BasketDiv{
+		clear:left;float:left;position:fixed;background-color:white;min-width:600px;min-height:50px;display:none;top:0px;overflow-y:auto;max-height:400px;right:1%;top:100px;
+	}
+	#GoodsDiv{
+		clear: left;float:left;margin-left:21%;
+	}
+	#BasketOpen{
+		cursor:pointer;
+	}
+	#BasketClose{
+		cursor:pointer;
+	}
+	#AllDiv{
+		clear: left;float:left;margin-left:20%;width:1200px;background-color:white;
+	}
+}
+@media all and (min-width:1600px) and (max-width:1700px)
+{
+	#ToMainDiv{
+		clear: left;float:left;margin-left:10%;margin-top:30px;padding:5px
+	}
+	#TopInfoDiv {
+        background-color:#20B2AA;width:100%;height:100px;
+    }
+	#TopCategoryDiv {
+		float:left;margin-top:30px
+	}
+	#BasketDiv{
+		clear:left;float:left;position:fixed;background-color:white;min-width:500px;min-height:50px;display:none;top:0px;overflow-y:auto;max-height:400px;right:10%;top:100px;
+	}
+	#GoodsDiv{
+		clear: left;float:left;margin-left:10%;
+	}
+	#BasketOpen{
+		cursor:pointer
+	}
+	#BasketClose{
+		cursor:pointer;
+	}
+	#AllDiv{
+		clear: left;float:left;margin-left:20%;width:1200px;background-color:white;
+	}
+}
+@media all and (min-width:1200px) and (max-width:1600px)
+{
+	body {
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+ }
+	#ToMainDiv{
+		clear: left;float:left;margin-left:10%;margin-top:30px;padding:5px
+	}
+	#TopInfoDiv {
+        background-color:#20B2AA;min-width:1300px;width:100%;height:100px;background-size:contain;
+    }
+	#TopCategoryDiv {
+		float:left;margin-top:30px
+	}
+	#BasketDiv{
+		clear:left;float:left;position:fixed;background-color:white;min-width:500px;min-height:50px;display:none;top:0px;overflow-y:auto;max-height:400px;right:1%;top:100px;
+	}
+	#GoodsDiv{
+		clear: left;float:left;margin-left:10%;min-width:1200px;width:100%
+	}
+	#BasketOpen{
+		cursor:pointer
+	}
+	#BasketClose{
+		cursor:pointer;
+	}
+	#AllDiv{
+		clear: left;float:left;margin-left:5%;width:1200px;background-color:white;
+	}
+}
+@media all and (max-width:1200px)
+{
+	body {
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+ }
+	#ToMainDiv{
+		clear: left;float:left;margin-left:10%;margin-top:30px;padding:5px
+	}
+	#TopInfoDiv {
+        background-color:#20B2AA;min-width:1300px;width:100%;height:100px;background-size:contain;
+    }
+	#TopCategoryDiv {
+		float:left;margin-top:30px
+	}
+	#BasketDiv{
+		clear:left;float:left;position:fixed;background-color:white;min-width:500px;min-height:50px;display:none;top:0px;overflow-y:auto;max-height:400px;right:1%;top:100px;
+	}
+	#GoodsDiv{
+		clear: left;float:left;margin-left:10%;min-width:1200px;width:100%
+	}
+	#BasketOpen{
+		cursor:pointer
+	}
+	#BasketClose{
+		cursor:pointer;
+	}
+	#AllDiv{
+		clear: left;float:left;margin-left:1%;width:1200px;background-color:white;
+	}
+}
